@@ -1,0 +1,32 @@
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+}
+
+.p-product {
+    font-family: none;
+    font-weight: 600;
+    color: #ff0000;
+    font-size: 30px;
+
+}
+
+.p-cifrao {
+    color: #000000;
+}
+
+.a-product {
+    font-family: none;
+}
+
+.div-products {
+    display: flex;
+}
