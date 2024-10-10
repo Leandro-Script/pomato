@@ -47,7 +47,7 @@ h1,
     justify-content: space-between;
 }
 
-.div-cardProduct {
+.div-productIn {
     display: flex;
     flex-direction: row;
     align-items: center;
