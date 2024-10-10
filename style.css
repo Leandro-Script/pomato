@@ -76,7 +76,6 @@ h1,
 }
 #T1{
     color: white;
-    padding-left: 36.7vw;
     padding-top: 3vh;
 }
 #img1{
@@ -125,5 +124,9 @@ h1,
     text-decoration: none;
     color: white;
 }
-
-
+#adress{
+    border-bottom: white solid;
+    width: 60vw;
+    text-align: center;
+    margin: 0 auto;
+}
