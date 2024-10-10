@@ -64,8 +64,13 @@ h1,
     justify-content: end;
     background-color: #ffffff;
     height: 400px;
-    width: 100%;
+    width: 300px;
     padding-bottom: 15px;
     padding-left: 30px;
     padding-right: 30px;
+}
+@media (width <= 768px) {
+    .div-productIn {
+        flex-direction: column;
+    }
 }
