@@ -32,6 +32,7 @@
     justify-content: center;
     background-color: #051108;
     flex-direction: column;
+    width: 100vw;
 }
 #nav{
     display: flex;
@@ -47,6 +48,7 @@
     background-color: #ebebeb;
     height: 6vh;
     align-items: center;
+    width: 100vw;
 }
 .a1{
     text-decoration: none;
