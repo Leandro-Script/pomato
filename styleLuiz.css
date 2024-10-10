@@ -1,0 +1,62 @@
+@media (width >= 1040px){
+    #barra_navegacao{
+        display: flex;
+        background-image: url(/imagens/hea.png);
+        height: 80px;
+    }
+    #titulo{
+        display: flex;
+        width: 30%;
+        padding-right: 25%;
+    }
+    #listinha{
+        justify-content: end;
+        width: 60%;
+    }
+    .elementos{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    #lista2{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    #titulo2{
+        display: none;
+    }
+}
+
+@media (width < 1040px){
+    #titulo{
+        display: none;
+    }
+    #listinha{
+        display: none;
+    }
+
+    #titulo2{
+        text-align: center;
+    }
+
+    #mini_body{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #barra_pequena{
+        background-color: #ff0000;
+        height: 50px;
+        align-items: center;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 12px;
+    }
+    #banner_1{
+        background-image: url(/imagens/banner.jpg);
+        width: 100%;
+        height: 500px;
+        background-size: contain;
+
+    }
+}
