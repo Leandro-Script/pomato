@@ -19,7 +19,7 @@
 #P2{
     color: white;
     padding-bottom: 1vh;
-    padding-top: 6vh;
+    padding-top: 7vh;
     text-align: center;
 }
 .P1{
@@ -61,4 +61,42 @@
     margin: 0 auto;
     line-height: 2vh;
     padding-top: 8vh;
+}
+@media(width <= 768px){
+    #adress{
+        border-bottom: #d9d9d9 solid;
+        width: 90vw;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 2vh;
+        padding-top: 8vh;
+    }
+    #nav{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        gap: 3vw;
+        padding-bottom: 5vh;
+        flex-wrap: wrap;
+        margin-left: 7vw;
+        padding-left: 0vw;
+        width: 70vw;
+    }
+    #img1{
+        width: 40vw;
+        padding-left: 21vw;
+        padding-bottom: 2vh;
+        
+    }
+    #P2{
+        text-wrap: wrap;
+        width: 70vw;
+        margin-left: 6vw;
+    }
+    .P1{
+        color: white;
+        padding-bottom: 1vh;
+        text-align: center;
+        width: 83vw;
+    }
 }
