@@ -14,16 +14,20 @@
     justify-content: center;
 }
 
+.phone{
+    width: 85%;
+}
+
 textarea{
     border: solid 2px #ff000f;
-    width: 35%;
+    width: 85%;
     padding: 1rem;
     margin: 1rem;
 }
 
 input{
     border: solid 2px #ff000f;
-    width: 35%;
+    width: 40.5%;
     padding: 1rem;
     margin: 1rem;
 }
