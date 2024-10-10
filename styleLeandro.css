@@ -47,7 +47,7 @@ h1,
     justify-content: space-between;
 }
 
-.div-productIn {
+.div-cardProduct {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -68,9 +68,4 @@ h1,
     padding-bottom: 15px;
     padding-left: 30px;
     padding-right: 30px;
-}
-@media (width <= 768px) {
-    .div-productIn {
-        flex-direction: column;
-    }
 }
