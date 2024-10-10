@@ -6,7 +6,7 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     padding: 2rem; 
     border-radius: 8px; 
-    margin: 1rem;
+    margin: 5rem;
 }
 
 .botao {
@@ -19,25 +19,30 @@
 }
 
 .email{
-    width: 45%;
+    width: 30%
 }
 
 .phone{
-    width: 50%;
+    width: 84.5%;
 }
 
 textarea{
     border: solid 2px #ff000f;
+    width: 84.5%;
+    padding: 1rem;
+    margin: 1%;
 }
 
 input{
     border: solid 2px #ff000f;
+    padding: 1rem;
+    margin: 1%;
 }
 
 button {
     padding: 0.75rem 1.5rem;
     background-color: black;
-    color: #fff;
+    color: #fff;    
     border: none;
     border-radius: 5px;
     font-size: 1rem;
@@ -56,9 +61,19 @@ button:hover {
         flex-direction: column;
     }
 
-    input{
-        margin: 0px;
-        padding: 0px;
+    .name{
+        width: 86%;
+    }
+    
+    .email{
+        width: 86%;
+    }
+    
+    .phone{
+        width: 86%;
+    }
+    
+    textarea{
         width: 86%;
     }
 }
