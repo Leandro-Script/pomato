@@ -47,6 +47,22 @@
     background-color: black;
 }
 
+.secao-sobre{
+    display: flex;
+    margin: 3rem 0.5rem;
+    border-bottom: 7px solid #ff000f;
+    margin: 0px;
+}
+.sobre{
+    padding: 1rem;
+    text-align: end;
+    padding-left: 5rem;
+}
+
+
+.img-sobre{
+    margin: 4rem;
+}
 
 @media (max-width: 768px) {
 
