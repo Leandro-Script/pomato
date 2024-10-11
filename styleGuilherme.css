@@ -99,4 +99,20 @@
         text-align: center;
         width: 83vw;
     }
+    #todos{
+        padding-left: 6vw;
+    }
+    #P4::before {
+        content: "\A"; 
+        white-space: pre;
+        
+    }
+    #P4::after {
+        content: "\A Html Templates";
+        white-space: pre;
+    }
+    #todostext{
+        
+        
+    }
 }
