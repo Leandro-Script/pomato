@@ -2,7 +2,6 @@
     #barra_navegacao{
         display: flex;
         background-image: url(/images/hea.jpg);
-        height: 80px;
     }
     #titulo{
         display: flex;
