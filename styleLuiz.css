@@ -1,7 +1,7 @@
 @media (width >= 1040px){
     #barra_navegacao{
         display: flex;
-        background-image: url(/images/banner.jpg);
+        background-image: url(/images/hea.jpg);
         height: 80px;
     }
     #titulo{

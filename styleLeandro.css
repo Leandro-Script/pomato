@@ -64,7 +64,8 @@ h1,
     justify-content: end;
     background-color: #ffffff;
     height: 400px;
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     padding-bottom: 15px;
     padding-left: 30px;
     padding-right: 30px;
