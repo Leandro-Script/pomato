@@ -5,17 +5,15 @@
 body{
     display: flex;
     justify-content: center;
-}
-html {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
 }
 
-h1 {
-    font-size: 3rem;
+h2 {
+    font-size: 50px;
     font-weight: 900;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 
 a {
@@ -24,10 +22,10 @@ a {
 
 .container {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1220px;
 }
 
-h1,
+h2,
 .div-products {
     padding-left: 6rem;
     padding-right: 6rem;
@@ -50,7 +48,8 @@ h1,
 
 .div-products {
     background-color: #ebebeb;
-    padding-top: 5rem;
+    padding-top: 90px;
+    padding-bottom: 90px;
     gap: 30px;
     justify-content: space-between;
 }
@@ -74,19 +73,28 @@ h1,
     height: 400px;
     max-width: 300px;
     width: 100%;
-    padding-bottom: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 60px;
 }
 
 .button-black {
-    padding: 1.2rem 5rem;
+    padding: 12px 0 12px;
+    max-width: 212px;
+    width: 100%;
     background-color: #000;
     color: #fff;    
     border: none;
-    font-size: 1.5rem;
+    font-size: 17px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin: 0 auto;
 }
 
 .button-SeeMore {
-    border-radius: 30px;
+    border-radius: 32px;
+}
+.img-product {
+    width: 100%;
+    height: 200px;
+    max-width: 95px;
 }
