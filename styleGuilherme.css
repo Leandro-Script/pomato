@@ -1,48 +1,56 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-#T1{
+
+#T1 {
     color: white;
 }
-#img1{
+
+#img1 {
     width: 11vw;
     padding-left: 44.0vw;
     padding-bottom: 2vh;
-    
+
 }
-#P3{
+
+#P3 {
     color: white;
     padding-left: 17.6vw;
     padding-bottom: 2.5vh;
 }
-#P2{
+
+#P2 {
     color: white;
     padding-bottom: 1vh;
     padding-top: 7vh;
     text-align: center;
 }
-.P1{
+
+.P1 {
     color: white;
     padding-bottom: 1vh;
     text-align: center;
 }
-#box1{
+
+#box1 {
     display: flex;
     justify-content: center;
     background-color: #051108;
     flex-direction: column;
     width: 100vw;
 }
-#nav{
+
+#nav {
     display: flex;
     list-style-type: none;
     gap: 2.55vw;
     padding-bottom: 5vh;
     padding-left: 35.5vw;
-    
+
 }
-#box2{
+
+#box2 {
     display: flex;
     justify-content: center;
     background-color: #ebebeb;
@@ -50,11 +58,13 @@
     align-items: center;
     width: 100vw;
 }
-.a1{
+
+.a1 {
     text-decoration: none;
     color: white;
 }
-#adress{
+
+#adress {
     border-bottom: #d9d9d9 solid;
     width: 60vw;
     text-align: center;
@@ -62,8 +72,9 @@
     line-height: 2vh;
     padding-top: 8vh;
 }
-@media(width <= 768px){
-    #adress{
+
+@media(width <=768px) {
+    #adress {
         border-bottom: #d9d9d9 solid;
         width: 90vw;
         text-align: center;
@@ -71,7 +82,8 @@
         line-height: 2vh;
         padding-top: 8vh;
     }
-    #nav{
+
+    #nav {
         display: flex;
         justify-content: center;
         list-style-type: none;
@@ -82,37 +94,41 @@
         padding-left: 0vw;
         width: 70vw;
     }
-    #img1{
+
+    #img1 {
         width: 40vw;
         padding-left: 21vw;
         padding-bottom: 2vh;
-        
+
     }
-    #P2{
+
+    #P2 {
         text-wrap: wrap;
         width: 70vw;
         margin-left: 6vw;
     }
-    .P1{
+
+    .P1 {
         color: white;
         padding-bottom: 1vh;
         text-align: center;
         width: 83vw;
     }
-    #todos{
+
+    #todos {
         padding-left: 6vw;
     }
+
     #P4::before {
-        content: "\A"; 
+        content: "\A";
         white-space: pre;
-        
+
     }
+
     #P4::after {
         content: "\A Html Templates";
         white-space: pre;
     }
-    #todostext{
-        
-        
-    }
+
+    #todostext {}
 }

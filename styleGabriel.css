@@ -1,7 +1,7 @@
 .secao-contato {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-    padding: 2rem; 
-    border-radius: 8px; 
+    padding: 2rem;
+    border-radius: 8px;
     margin: 5rem;
 }
 
@@ -10,7 +10,8 @@
     justify-content: center;
 }
 
-.formulario-contato input, .formulario-contato textarea {
+.formulario-contato input,
+.formulario-contato textarea {
     width: 100%;
     padding: 1rem;
     margin: 1rem 0;
@@ -18,7 +19,8 @@
     font-size: 16px;
 }
 
-.formulario-contato .phone, .formulario-contato textarea {
+.formulario-contato .phone,
+.formulario-contato textarea {
     box-sizing: border-box;
     resize: none;
 }
@@ -27,7 +29,7 @@
     padding-top: 2.3rem;
 }
 
-.input-linha{
+.input-linha {
     display: flex;
     gap: 20px;
 }
@@ -35,7 +37,7 @@
 .botao-contato {
     padding: 1rem 7.5rem;
     background-color: black;
-    color: #fff;    
+    color: #fff;
     border: none;
     border-radius: 3px;
     font-size: 1.5rem;
@@ -47,33 +49,34 @@
     background-color: black;
 }
 
-.secao-sobre{
+.secao-sobre {
     display: flex;
     margin: 3rem 0.5rem;
     border-bottom: 7px solid #ff000f;
     margin: 0px;
 }
-.sobre{
+
+.sobre {
     padding: 1rem;
     text-align: end;
     padding-left: 5rem;
 }
 
 
-.img-sobre{
+.img-sobre {
     margin: 4rem;
 }
 
 @media (max-width: 768px) {
 
-    .input-linha{
+    .input-linha {
         gap: 0px;
         display: flex;
         flex-direction: column;
         padding-right: 2.14rem;
     }
 
-    button{
+    button {
         padding: 0.8rem 6.5rem;
         font-size: 1.2rem;
         margin: 0.5rem;
