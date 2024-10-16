@@ -82,4 +82,11 @@
         margin: 0.5rem;
     }
 
+    .img-sobre{
+        width: 100%;
+    }
+
+    .secao-sobre{
+        flex-direction: column;
+    }
 }
