@@ -11,17 +11,30 @@ body {
 html {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
+    font-style: normal;
 }
 
 h2 {
     font-size: 50px;
     font-weight: 900;
-    padding-bottom: 60px;
-    padding-top: 60px;
 }
 
 a {
     text-decoration: none;
+}
+
+#p-dueMarkes {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+#strong-rental {
+    color: #f2b87f;
+    font-weight: 700;
+}
+
+#p-lorem {
+    padding-bottom: 30px;
 }
 
 .container {
@@ -33,6 +46,11 @@ h2,
 .div-products {
     padding-left: 6rem;
     padding-right: 6rem;
+}
+
+.h2-title {
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 .p-product {
@@ -50,37 +68,41 @@ h2,
     font-family: none;
 }
 
-.div-products {
-    background-color: #ebebeb;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    gap: 30px;
+.div-paddingTopBot {
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
-.div-productIn {
+.div-products {
+    background-color: #ebebeb;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-productsIn {
+    gap: 30px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .div-product {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: end;
     background-color: #ffffff;
-    height: 350px;
-    max-width: 350px;
+    max-width: 326.67px;
     width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
+    padding-top: 70px;
 }
 
 .button-black {
-    padding: 12px 0 12px;
+    padding: 17px 0 17px;
     max-width: 212px;
     width: 100%;
     background-color: #000;
@@ -90,14 +112,50 @@ h2,
     margin: 0 auto;
     margin-top: 40px;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .button-SeeMore {
     border-radius: 32px;
+    margin-top: 40px;
 }
 
 .img-product {
     width: 100%;
     height: 200px;
     max-width: 95px;
+}
+
+.div-backRed {
+    background-color: #ff0000;
+    display: flex;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.div-content {
+    background-color: #ffffff;
+    text-align: center;
+    width: 100%;
+    max-width: 960px;
+    padding: 20px 10px 20px 10px;
+}
+
+@media (width <=968px) {
+    .div-product {
+        max-width: 100%;
+    }
+
+    h2,
+    .div-products {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .div-products {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
 }
