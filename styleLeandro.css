@@ -115,6 +115,10 @@ h2,
     cursor: pointer;
 }
 
+.botao-contato {
+    border-radius: 3px;
+}
+
 .button-SeeMore {
     border-radius: 32px;
     margin-top: 40px;
@@ -145,6 +149,10 @@ h2,
 @media (width <=968px) {
     .div-product {
         max-width: 100%;
+    }
+
+    h2 {
+        font-size: 32px;
     }
 
     h2,
