@@ -41,10 +41,6 @@ a {
     padding-right: 6rem;
 }
 
-.div-padProduct {
-    padding-left: -30px;
-}
-
 .h2-title {
     padding-bottom: 40px;
     padding-top: 40px;
@@ -82,6 +78,8 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
 }
 
 .div-product {
@@ -91,8 +89,8 @@ a {
     background-color: #ffffff;
     max-width: 386.67px;
     width: 100%;
-    padding-bottom: 25px;
-    padding-top: 70px;
+    padding-bottom: 30px;
+    padding-top: 100px;
 }
 
 .button-black {
@@ -146,8 +144,7 @@ a {
         font-size: 32px;
     }
 
-    h2,
-    .div-products, .div-backRed {
+    .container {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
@@ -160,5 +157,4 @@ a {
         padding-top: 80px;
         padding-bottom: 80px;
     }
-
 }
