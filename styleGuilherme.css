@@ -4,8 +4,7 @@
 }
 
 #img1 {
-    width: 200px;
-    padding-bottom: 2vh;
+    width: 150px;
 }
 
 #P3 {
@@ -145,4 +144,6 @@
         content: "\A Html Templates";
         white-space: pre;
     }
+
+    #todostext {}
 }
