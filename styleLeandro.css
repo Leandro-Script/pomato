@@ -3,11 +3,6 @@
     padding: 0;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-}
-
 html {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
@@ -40,6 +35,8 @@ a {
 .container {
     width: 100%;
     max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2,
@@ -75,10 +72,9 @@ h2,
 
 .div-products {
     background-color: #ebebeb;
-
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    text-align: center;
 }
 
 .div-productsIn {
@@ -165,5 +161,4 @@ h2,
         padding-top: 80px;
         padding-bottom: 80px;
     }
-
 }
