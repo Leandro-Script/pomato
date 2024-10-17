@@ -1,18 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 #T1 {
     color: white;
     padding-bottom: 80px;
 }
 
 #img1 {
-    width: 11vw;
-    padding-left: 44.0vw;
+    width: 200px;
     padding-bottom: 2vh;
-
 }
 
 #P3 {
@@ -36,7 +29,7 @@
 
 #box1 {
     display: flex;
-    justify-content: center;
+    align-items: center;
     background-color: #051108;
     flex-direction: column;
     width: 99.05vw;
@@ -152,6 +145,4 @@
         content: "\A Html Templates";
         white-space: pre;
     }
-
-    #todostext {}
 }
