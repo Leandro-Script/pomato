@@ -102,4 +102,23 @@
         margin: 0px;
         padding: 0px;
     }
+
+    .span-sobre{
+        color: #000;
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+    
+    .titulo-sobre{
+        color: #666666;
+        font-size: 2.3rem;
+        font-weight: 900;
+    }
+
+    .sobre{
+        margin: 0px;
+        padding-left: 0.9rem;
+        padding-right: 0.9rem;
+        padding-bottom: 2rem;
+    }
 }
