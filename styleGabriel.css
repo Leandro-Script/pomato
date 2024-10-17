@@ -52,6 +52,7 @@
     padding: 1rem;
     text-align: end;
     padding-left: 5rem;
+    margin-top: 5rem;
 }
 
 .titulo-sobre{
@@ -68,6 +69,12 @@
 
 .img-sobre {
     width: 445px;
+    margin-bottom: 4rem;
+    margin-left: 0px;
+}
+
+.lado{
+    display: flex;
 }
 
 @media (max-width: 768px) {
