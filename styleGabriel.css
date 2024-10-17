@@ -52,6 +52,7 @@
     padding: 1rem;
     text-align: end;
     padding-left: 5rem;
+    margin-top: 5rem;
 }
 
 .titulo-sobre{
@@ -68,6 +69,12 @@
 
 .img-sobre {
     width: 445px;
+    margin-bottom: 4rem;
+    margin-left: 0px;
+}
+
+.lado{
+    display: flex;
 }
 
 @media (max-width: 768px) {
@@ -87,9 +94,31 @@
 
     .img-sobre{
         width: 100%;
+        height: 33rem;
     }
 
-    .secao-sobre{
+    .lado{
         flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .span-sobre{
+        color: #000;
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+    
+    .titulo-sobre{
+        color: #666666;
+        font-size: 2.3rem;
+        font-weight: 900;
+    }
+
+    .sobre{
+        margin: 0px;
+        padding-left: 0.9rem;
+        padding-right: 0.9rem;
+        padding-bottom: 2rem;
     }
 }
