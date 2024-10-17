@@ -44,16 +44,71 @@
         display: none;
     }
 
+    #botaolegal{
+        border-style: solid;
+        border-color: #ffffff;
+        border-radius: 20px;
+        width: 150px;
+        height: 40px;
+        color: #ff0000;
+        margin-top: 60px;
+        font-weight: 700;
+    }
+    #titulo_luiz{
+        padding-top: 50px;
+        font-size: 65px;
+        font-weight: 50;
+        margin-bottom: 20px;
+    }
 
+    #titulo_luiz span {
+        font-weight: 900;
+    }
     #bannerz {
+        display: flex;
         background-image: url(/images/banner.jpg);
         width: 100%;
         height: 700px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+    }
+    #btn_esquerdo{
+        display: flex;
+        width: 10%;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn_form{
+        border: solid 20px #ffffff;
+        border-radius: 100px;
+        background-color: #ffffff;
+        font-size: 20px;
+    }
+    #texto_luiz{
+        display: flex;
+        color: #ffffff;
+        width: 80%;
+        height: 700px;
+        flex-direction: column;
+        font-size: 18px;
+    }
+    #icones{
+        color: #ffffff;
+        font-size: 30px;
+    }
 
+    .icon-border {
+        border: solid 1px red;;
+        border-radius: 100%;
+        padding: 0.5rem;
+    }
 
+    #btn_direito{
+        display: flex;
+        width: 10%;
+        align-items: center;
+        justify-content: center;
     }
 }
 @media (width < 1040px) {
@@ -97,5 +152,8 @@
         background-size: contain;
         background-repeat: no-repeat;
 
+    }
+    #texto_luiz{
+        color: #ffffff;
     }
 }
