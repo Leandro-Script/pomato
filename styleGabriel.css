@@ -1,8 +1,9 @@
-.secao-contato {
+.secao-contato .formulario-contato {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 8px;
-    margin: 5rem;
+    margin: 2rem;
+    margin-top: 0px;
 }
 
 .botao {
@@ -10,8 +11,7 @@
     justify-content: center;
 }
 
-.formulario-contato input,
-.formulario-contato textarea {
+.formulario-contato input, .formulario-contato textarea {
     width: 100%;
     padding: 1rem;
     margin: 1rem 0;
@@ -19,8 +19,7 @@
     font-size: 16px;
 }
 
-.formulario-contato .phone,
-.formulario-contato textarea {
+.formulario-contato .phone, .formulario-contato textarea {
     box-sizing: border-box;
     resize: none;
 }
@@ -38,6 +37,10 @@
     background-color: black;
 }
 
+.titulo-contact{
+    margin-top: 4rem;
+}
+
 .secao-sobre {
     display: flex;
     margin: 3rem 0.5rem;
@@ -51,6 +54,17 @@
     padding-left: 5rem;
 }
 
+.titulo-sobre{
+    color: #666666;
+    font-size: 2.3rem;
+    font-weight: 900;
+}
+
+.span-sobre{
+    color: #000;
+    font-size: 4rem;
+    font-weight: 900;
+}
 
 .img-sobre {
     width: 445px;
