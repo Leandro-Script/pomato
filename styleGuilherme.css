@@ -5,6 +5,7 @@
 
 #T1 {
     color: white;
+    padding-bottom: 2vh;
 }
 
 #img1 {
@@ -63,7 +64,8 @@
     text-decoration: none;
     color: white;
 }
-
+#footer{
+}
 #adress {
     border-bottom: #d9d9d9 solid;
     width: 60vw;
