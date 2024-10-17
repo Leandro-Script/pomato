@@ -68,6 +68,12 @@
 
 .img-sobre {
     width: 445px;
+    margin-bottom: 4rem;
+    margin-left: 0px;
+}
+
+.lado{
+    display: flex;
 }
 
 @media (max-width: 768px) {
