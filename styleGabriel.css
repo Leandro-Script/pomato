@@ -94,9 +94,12 @@
 
     .img-sobre{
         width: 100%;
+        height: 33rem;
     }
 
-    .secao-sobre{
+    .lado{
         flex-direction: column;
+        margin: 0px;
+        padding: 0px;
     }
 }
