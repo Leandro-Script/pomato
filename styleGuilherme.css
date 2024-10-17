@@ -5,7 +5,7 @@
 
 #T1 {
     color: white;
-    padding-bottom: 2vh;
+    padding-bottom: 80px;
 }
 
 #img1 {
@@ -24,7 +24,7 @@
 #P2 {
     color: white;
     padding-bottom: 1vh;
-    padding-top: 7vh;
+    padding-top: 30px;
     text-align: center;
 }
 
@@ -47,8 +47,7 @@
     list-style-type: none;
     gap: 2.55vw;
     padding-bottom: 5vh;
-    padding-left: 35.5vw;
-
+    justify-content: center;
 }
 
 #box2 {
@@ -68,11 +67,13 @@
 }
 #adress {
     border-bottom: #d9d9d9 solid;
-    width: 60vw;
+    width: 1000px;
     text-align: center;
     margin: 0 auto;
     line-height: 2vh;
     padding-top: 8vh;
+    font-size: 38px;
+    max-width: 850px;
 }
 
 @media(width <=768px) {
