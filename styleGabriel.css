@@ -2,8 +2,7 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     padding: 3rem;
     border-radius: 8px;
-    margin: 2rem;
-    margin-top: 0px;
+    margin-bottom: 6rem;
 }
 
 .botao {
@@ -46,6 +45,8 @@
     margin: 3rem 0.5rem;
     border-bottom: 7px solid #ff000f;
     margin: 0px;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .sobre {
@@ -83,7 +84,6 @@
         gap: 0px;
         display: flex;
         flex-direction: column;
-        padding-right: 2.14rem;
     }
 
     button {
@@ -120,5 +120,9 @@
         padding-left: 0.9rem;
         padding-right: 0.9rem;
         padding-bottom: 2rem;
+    }
+
+    .secao-sobre{
+        padding-top: 0px;
     }
 }
