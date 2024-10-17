@@ -40,6 +40,8 @@ a {
 .container {
     width: 100%;
     max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2,
@@ -75,10 +77,9 @@ h2,
 
 .div-products {
     background-color: #ebebeb;
-
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    text-align: center;
 }
 
 .div-productsIn {
@@ -115,6 +116,10 @@ h2,
     cursor: pointer;
 }
 
+.botao-contato {
+    border-radius: 3px;
+}
+
 .button-SeeMore {
     border-radius: 32px;
     margin-top: 40px;
@@ -147,6 +152,10 @@ h2,
         max-width: 100%;
     }
 
+    h2 {
+        font-size: 32px;
+    }
+
     h2,
     .div-products {
         padding-left: 1.5rem;
@@ -157,5 +166,4 @@ h2,
         padding-top: 80px;
         padding-bottom: 80px;
     }
-
 }

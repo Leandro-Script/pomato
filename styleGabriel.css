@@ -34,17 +34,6 @@
     gap: 20px;
 }
 
-.botao-contato {
-    padding: 1rem 7.5rem;
-    background-color: black;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    font-size: 1.5rem;
-    cursor: pointer;
-    margin: 1rem;
-}
-
 .botao-contato:hover {
     background-color: black;
 }
@@ -64,7 +53,7 @@
 
 
 .img-sobre {
-    margin: 4rem;
+    width: 445px;
 }
 
 @media (max-width: 768px) {
@@ -82,4 +71,11 @@
         margin: 0.5rem;
     }
 
+    .img-sobre{
+        width: 100%;
+    }
+
+    .secao-sobre{
+        flex-direction: column;
+    }
 }
