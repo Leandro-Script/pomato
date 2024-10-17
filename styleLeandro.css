@@ -3,11 +3,6 @@
     padding: 0;
 }
 
-#containerGeral{
-    display: flex;
-    justify-content: center;
-}
-
 html {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
@@ -45,7 +40,7 @@ a {
 }
 
 h2,
-.div-products {
+.div-products, .div-padding, .div-backRed {
     padding-left: 6rem;
     padding-right: 6rem;
 }
@@ -88,7 +83,6 @@ h2,
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .div-product {
@@ -96,7 +90,7 @@ h2,
     flex-direction: column;
     align-items: center;
     background-color: #ffffff;
-    max-width: 326.67px;
+    max-width: 309.67px;
     width: 100%;
     padding-bottom: 25px;
     padding-top: 70px;
@@ -135,8 +129,6 @@ h2,
     background-color: #ff0000;
     display: flex;
     justify-content: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
 }
 
 .div-content {
@@ -166,4 +158,5 @@ h2,
         padding-top: 80px;
         padding-bottom: 80px;
     }
+
 }
